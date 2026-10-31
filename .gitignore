@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# KWISATZ - Frontend e ferramentas Node.js
+# ==========================================
+
+# Dependências
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Ferramentas e builds
+.turbo/
+.vercel/
+*.tsbuildinfo
+
+# Testes e relatórios
+coverage/
+playwright-report/
+test-results/
+
+# Arquivos de ambiente e segredos
+.env.*
+!.env.example
